@@ -10,6 +10,7 @@
 - ⚡ Clean, simple ImGUI menu
 - ⚡ All materials for any building 
 - ⚡ 2 upgrade modes, default and the upgrade if avaible option
+- ⚡ Adjustable upgrade delay and speed in MS
 
   ## 🖥️ Features
  - ⚡ GUI Screenshot: https://cdn.discordapp.com/attachments/896131196558381146/921250503629893652/unknown.png
