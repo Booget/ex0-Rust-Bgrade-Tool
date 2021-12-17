@@ -11,5 +11,9 @@
 - ⚡ All materials for any building 
 - ⚡ 2 upgrade modes, default and the upgrade if avaible option
 
+  ## 🖥️ Features
+ - ⚡ GUI Screenshot: https://cdn.discordapp.com/attachments/896131196558381146/921250503629893652/unknown.png
+ - ⚡ In action video: https://streamable.com/87zl8v
+ 
 For any questions feel free to message me on discord, booget#0001!
 
