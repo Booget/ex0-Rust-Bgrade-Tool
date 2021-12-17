@@ -1,0 +1,13 @@
+﻿  functions.cpp
+C:\Users\booget\Desktop\Coding\Game Reversal\Projects\ex0\Ex0\Ex0\functions.cpp(23,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\booget\Desktop\Coding\Game Reversal\Projects\ex0\Ex0\Ex0\functions.cpp(24,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\booget\Desktop\Coding\Game Reversal\Projects\ex0\Ex0\Ex0\functions.cpp(43,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+functions.obj : warning LNK4006: "void __cdecl keybind::key_bind(int &)" (?key_bind@keybind@@YAXAEAH@Z) already defined in exo.obj; second definition ignored
+functions.obj : warning LNK4006: "class globals globals" (?globals@@3V0@A) already defined in exo.obj; second definition ignored
+main.obj : warning LNK4006: "void __cdecl keybind::key_bind(int &)" (?key_bind@keybind@@YAXAEAH@Z) already defined in exo.obj; second definition ignored
+main.obj : warning LNK4006: "class globals globals" (?globals@@3V0@A) already defined in exo.obj; second definition ignored
+menu.obj : warning LNK4006: "void __cdecl keybind::key_bind(int &)" (?key_bind@keybind@@YAXAEAH@Z) already defined in exo.obj; second definition ignored
+menu.obj : warning LNK4006: "class globals globals" (?globals@@3V0@A) already defined in exo.obj; second definition ignored
+C:\Users\booget\Desktop\Coding\Game Reversal\Projects\ex0\Ex0\x64\Debug\Ex0.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  Ex0.vcxproj -> C:\Users\booget\Desktop\Coding\Game Reversal\Projects\ex0\Ex0\x64\Debug\Ex0.exe
