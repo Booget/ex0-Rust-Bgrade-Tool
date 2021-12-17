@@ -21,7 +21,7 @@ int main(int, char**)
     HWND hwnd = ::CreateWindow(wc.lpszClassName, _T("Windows Deffender"), WS_OVERLAPPEDWINDOW, 0, 0, 50, 50, NULL, NULL, wc.hInstance, NULL);
 
     // Hide console window
-    ::ShowWindow(::GetConsoleWindow(), SW_SHOW);
+    ::ShowWindow(::GetConsoleWindow(), SW_HIDE);
 
     // Init Direct3d
     if (!CreateDeviceD3D(hwnd))
