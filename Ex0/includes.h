@@ -1,7 +1,5 @@
 #pragma once
 
-#define PANIC_KEY VK_INSERT
-
 // Stand
 #include <iostream>
 #include <windows.h>

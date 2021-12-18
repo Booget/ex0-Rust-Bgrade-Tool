@@ -3,12 +3,11 @@
 
 void exo::exoThread()
 {
-    while (!GetAsyncKeyState(PANIC_KEY))
+    while (1)
     {
-
         if (globals.enableBgrade)
         {
-            if (globals.selectedUpgradeType == 0) 
+            if (globals.selectedUpgradeType == 0)
             {
                 globals.x_wood = 50;
                 globals.y_wood = -100;
@@ -54,6 +53,20 @@ void exo::exoThread()
                     functions::sendKeyPress();
                     break;
                 }
+            }
+        }
+
+        if (globals.enableCodeEnterer)
+        {
+            if (GetAsyncKeyState(VK_INSERT) & 1)
+            {
+                functions::send_keyb_event((int)globals.codeNum1);
+                Sleep(globals.delayBetweenKeypress);
+                functions::send_keyb_event((int)globals.codeNum2);
+                Sleep(globals.delayBetweenKeypress);
+                functions::send_keyb_event((int)globals.codeNum3);
+                Sleep(globals.delayBetweenKeypress);
+                functions::send_keyb_event((int)globals.codeNum4);
             }
         }
     }

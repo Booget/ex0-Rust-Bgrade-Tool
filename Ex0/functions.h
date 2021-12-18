@@ -6,8 +6,5 @@ namespace functions
 	void move_mouse(double speed, float x, float y);
 	void sendKeyPress();
 	float convert(float usersens, int fov, float val);
-
-	namespace misc {
-		void log(std::string text);
-	}
+	void send_keyb_event(int key);
 }

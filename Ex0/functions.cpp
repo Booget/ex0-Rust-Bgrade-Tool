@@ -38,9 +38,52 @@ void functions::sendKeyPress()
     mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
 }
 
+void functions::send_keyb_event(int key)
+{
+    WORD keyCode;
+
+    switch (key)
+    {
+    case 0:
+        keyCode = 0x30;
+        break;
+    case 1:
+        keyCode = 0x31;
+        break;
+    case 2:
+        keyCode = 0x32;
+        break;
+    case 3:
+        keyCode = 0x33;
+        break;
+    case 4:
+        keyCode = 0x34;
+        break;
+    case 5:
+        keyCode = 0x35;
+        break;
+    case 6:
+        keyCode = 0x36;
+        break;
+    case 7:
+        keyCode = 0x37;
+        break;
+    case 8:
+        keyCode = 0x38;
+        break;
+    case 9:
+        keyCode = 0x39;
+        break;
+    }
+
+    keybd_event(keyCode, 0, KEYEVENTF_EXTENDEDKEY, 0);
+    keybd_event(keyCode, 0, KEYEVENTF_KEYUP, 0);
+}
+
 float functions::convert(float usersens, int fov, float val)
 {
     float a = (0.5 * fov * val) / (usersens * 90);
 
     return a;
 }
+
